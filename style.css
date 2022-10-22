@@ -1,0 +1,418 @@
+html{
+  -webkit-text-size-adjust:100%;
+}
+
+body{
+  color:#333;
+  font-size:14px;
+  font-weight:500;
+  display: block;
+  text-decoration: none;
+  margin:0;
+  padding:0;
+}
+
+ul{
+  list-style:none;
+}
+
+section{
+  display:block;
+}
+
+a{
+  text-decoration:none;
+}
+
+div{
+  display:block;
+}
+
+video{
+  object-fit:contain;
+}
+
+.Header{
+  width:100%;
+  position:absolute;
+  padding-top:20px;
+  padding-bottom:20px;
+}
+
+.HeaderContainer{
+  display:flex;
+  justify-content:space-between;
+  margin:0 36px;
+  max-width:100%;
+  position:relative;
+}
+
+.HeaderLogo_image{
+  display:block;
+  height:20px;
+  width:auto;
+  border:0;
+}
+
+.HeaderLogo_bg{
+  display:none;
+  height:16px;
+  width:auto;
+  border:0;
+}
+
+.HeaderNav_list{
+  align-items:center;
+  display:flex;
+  justify-content:space-between;
+}
+
+.HeaderNav_listitem{
+  margin-right:45px;
+}
+
+.HeaderNav_listitem_link{
+  display: block;
+  text-decoration:none;
+  text-align:center;
+  color:#333;
+  font-weight:700;
+}
+
+.HeaderNav_listitem_link>span{
+  display:block;
+  text-align:center;
+  font-weight:700;
+}
+
+.HeaderNav_listitem_link>span:first-child{
+  font-family:'Lato',sans-serif;
+}
+
+.HeaderNav_listitem_link>span:last-child{
+  font-size:10px;
+}
+
+.HeaderNav_listitem_button{
+  color:#fff;
+  font-size:12px;
+  font-weight: 700;
+  text-decoration:none;
+  align-items:center;
+  background-color:#f79214;
+  border:none;
+  border-radius:38px;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  text-align:center;
+  width:100%;
+  height:40px;
+  padding:0 20px;
+}
+
+.Firstview{
+  background-image:url(https://camp.potepan.com/wp-content/themes/potepancamp/assets/styles/../images/home/first-view/top-hero.jpg);
+  background-size:cover;
+  background-position:center;
+  padding-top:100px;
+  padding-bottom:28px;
+}
+
+.Firstview_img{
+  display:none;
+}
+
+.Firstview_container{
+  max-width:1140px;
+  padding-left:50px;
+  padding-right:50px;
+  margin-left:auto;
+  margin-right:auto;
+  position:relative;
+}
+
+.Firstview_content{
+  margin-bottom:70px;
+  width:fit-content;
+}
+
+.Firstview_content_title{
+  color:#333;
+  font-size:38px;
+  font-family:'Lato',sans-serif;
+  font-weight:700;
+  line-height:54px;
+  margin-bottom:15px;
+  text-align:center;
+}
+
+.Firstview_content_images{
+  margin-bottom:25px;
+}
+
+.Firstview_content_images img{
+  margin-right:8px;
+  border:0;
+  vertical-align:middle;
+}
+
+.Firstview_content_images img:nth-of-type(2){
+  width:40%;
+}
+
+.Firstview_content_buttons{
+  display:flex;
+  font-weight:500;
+  text-decoration:none;
+}
+
+.Firstview_content_buttons a{
+  display:flex;
+  text-align:center;
+  justify-content:center;
+  align-items:center;
+  align-content:center;
+  background-color:#f79214;
+  border:none;
+  border-radius:38px;
+  color:#fff;
+  font-size:16px;
+  font-weight:700;
+  height:64px;
+  margin-right:15px;
+  width:100%;
+}
+
+.Firstview_content_buttons a:first-of-type{
+  width:306px;
+}
+
+.Firstview_content_buttons a:last-of-type{
+  background-color:#fff;
+  border:1px solid #e0e0e0;
+  border-radius:38px;
+  color:#333;
+  width:176px;
+}
+
+.Firstview_caption{
+  color: #a2a2a4;
+  font-size:12px;
+}
+
+.Firstview_caption a{
+  color:#a2a2a4;
+}
+
+.About_container{
+  background-color:#f79214;
+  padding-top:44px;
+  padding-bottom:44px;
+}
+
+.About{
+  max-width:1140px;
+  padding-left:50px;
+  padding-right:50px;
+  margin-left:auto;
+  margin-right:auto;
+  position:relative;
+  align-items:center;
+  display:flex;
+  justify-content:space-between;
+}
+
+.About_video{
+  width:50%;
+}
+
+.About_title{
+  display:flex;
+  flex-direction:column;
+  margin-bottom:0;
+  margin-left:32px;
+  width:100%;
+  align-items:flex-start;
+}
+
+.About_title br{
+  display:none;
+}
+
+.About_title h2{
+  font-size:38px;
+  font-weight:900;
+  width:100%;
+  letter-spacing: .1em;
+  color:#fff;
+  text-align:left;
+  margin-bottom:10px;
+}
+
+.About_title p{
+  font-size:16px;
+  color:#fff;
+  font-weight:700;
+  width:100%;
+  line-height:26px;
+  text-align:left;
+}
+
+.About_button{
+  color:#fff;
+  font-size:18px;
+  font-weight:700;
+  line-height:26px;
+  display:flex;
+  margin-bottom:0;
+}
+
+.About_button>img{
+  margin-right:5px;
+}
+
+@media screen and (max-width: 1080px){
+  .Header{
+  background-color:#fff;
+    z-index:10;
+  }
+  
+  .HeaderNav_3line{
+    cursor:pointer;
+    display:block;
+    position:relative;
+    width:30px;
+    height:21px;
+    z-index:100;
+  }
+  
+  .HeaderNav_line{
+    position: absolute;
+    top: 50%;
+    display: block;
+    width: 100%;
+    height: 3px;
+    background-color: #333;
+    transform: translate(0,-50%);
+    border-radius: 10px;
+    transition: top .2s,transform .2s,opacity .3s;
+  }
+  
+  .HeaderNav_line:first-child{
+    top:0;
+  }
+  
+  .HeaderNav_line:last-child{
+    top:100%;
+  }
+  
+  .HeaderNav_list{
+    overflow-y:scroll;
+    position:fixed;
+    top:60px;
+    left:100%;
+    width:100%;
+    display:block;
+    padding-top:20px;
+    padding-bottom:75px;
+    height:100%;
+  }
+}
+
+@media screen and (max-width: 1024px){
+  .About{
+    flex-direction:column;
+  }
+  
+  .About_video{
+    margin-bottom:16px;
+    width:75%;
+  }
+  
+  .About_title{
+    margin-left:0;
+    width:75%;
+  }
+}
+
+@media screen and (max-width: 767px){
+  .Header{
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  
+  .HeaderContainer{
+    max-width:100%;
+    margin-right:20px;
+    margin-left:20px;
+  }
+  
+  .HeaderNav_list{
+    top:52px;
+  }
+  
+  .Firstview{
+    background-image:none;
+    padding-top:0;
+    padding-bottom:35px;
+  }
+  
+  .Firstview_img{
+    display:block;
+  }
+  
+  .Firstview_container{
+    margin-top:-45vw;
+    max-width:none;
+    padding-left:20px;
+    padding-right:20px;
+  }
+  
+  .Firstview_content{
+    margin-bottom:20px;
+    width:100%;
+  }
+  
+  .Firstview_content_title{
+    font-size:25px;
+    line-height:36px;
+    margin-left:calc(((100vw - 100%)/2)*-1);
+    margin-right:calc(((100vw - 100%)/2)*-1);
+  }
+  
+  .Firstview_content_images{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    width: 100%;
+  }
+  
+  .Firstview_content_images img{
+    width:27.5%;
+  }
+  
+  .Firstview_content_buttons{
+    flex-direction:column;
+  }
+  
+  .Firstview_content_buttons a:first-of-type{
+    margin-right:0;
+  }
+  .Firstview_content_buttons a:last-of-type{
+    display:none;
+  }
+  
+  .Firstview_content_buttons a{
+    width:100% !important;
+  }
+  
+  .About_video{
+    width:100%;
+  }
+  
+  .About_title{
+    margin-bottom:0;
+    width:100%;
+  }
+}
